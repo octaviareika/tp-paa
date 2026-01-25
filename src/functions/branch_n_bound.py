@@ -9,9 +9,9 @@ def bnb_algorithm(data):
     total_time = end - start
 
     return_dictionary = {
-        "max_profit"= 0
-        "selected_items"= [],
-        "elapsed_time"= total_time,
+        "max_profit": max_profit,
+        "selected_items": selected_items,
+        "elapsed_time": total_time,
     } 
 
     return return_dictionary

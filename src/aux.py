@@ -15,5 +15,5 @@ def load_file(file_path):
         return data
 
     except Exception as e:
-        print(f"Erro ao ler Matriz: {e}")
+        print(f"Erro ao ler Dados: {e}")
         return None
