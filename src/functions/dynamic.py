@@ -25,7 +25,8 @@ def dynamic_function(data):
     n = len(items)
 
     # Inicializando a tabela DP
-    dp = [[[0 for _ in range(V + 1)]
+    # usar float para valores (podem ser não-inteiros)
+    dp = [[[0.0 for _ in range(V + 1)]
                 for _ in range(W + 1)]
                 for _ in range(n + 1)]
 
@@ -33,28 +34,31 @@ def dynamic_function(data):
     for i in range(1, n + 1):
         wi = int(items[i - 1]["weight"])
         li = int(items[i - 1]["volume"])
-        vi = items[i - 1]["value"]
+        vi = float(items[i - 1]["value"])
 
-        for w in range(W + 1):
-            for v in range(V + 1):
-                dp[i][w][v] = dp[i - 1][w][v]
+        for ww in range(W + 1):
+            for vv in range(V + 1):
+                # inicialmente não pegar o i-ésimo item
+                dp[i][ww][vv] = dp[i - 1][ww][vv]
 
-                if w >= wi and v >= li:
-                    dp[i][w][v] = max(dp[i][w][v], dp[i - 1][w - wi][v - li] + vi)
+                if ww >= wi and vv >= li:
+                    candidate = dp[i - 1][ww - wi][vv - li] + vi
+                    if candidate > dp[i][ww][vv]:
+                        dp[i][ww][vv] = candidate
 
     
-    # Backtraking para identificar a rota que foi utilizada
+    # Backtracking para identificar os itens usados
     selected_items = []
-    w = w
-    v = V
+    cur_w = W
+    cur_v = V
 
     for i in range(n, 0, -1):
-        if dp[i][w][v] != dp[i - 1][w][v]: # Item i foi escolhido
+        if dp[i][cur_w][cur_v] != dp[i - 1][cur_w][cur_v]:  # Item i foi escolhido
             selected_items.append(i - 1)
             wi = int(items[i - 1]["weight"])
             li = int(items[i - 1]["volume"])
-            w -= wi
-            v -= li
+            cur_w -= wi
+            cur_v -= li
 
     selected_items.reverse()
 

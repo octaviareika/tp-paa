@@ -1,0 +1,240 @@
+]633;E;for f in instances/*.txt;ad501d6b-167e-4df2-8d11-53ceb94de47d]633;C=== instances/inst_10_10_9_10.txt ===
+Backtracking: {'max_profit': 27.45, 'selected_items': [6, 7], 'elapsed_time': 0.00011706352233886719}
+Branch-and-Bound: {'max_profit': 27.45, 'selected_items': [6, 7], 'elapsed_time': 3.6716461181640625e-05}
+Dynamic Programming: {'max_profit': 27.45, 'selected_items': [6, 7], 'elapsed_time': 0.00019621849060058594}
+=== instances/inst_10_10_9_1.txt ===
+Backtracking: {'max_profit': 37.0, 'selected_items': [0, 8, 9], 'elapsed_time': 0.0001087188720703125}
+Branch-and-Bound: {'max_profit': 37.0, 'selected_items': [0, 8, 9], 'elapsed_time': 4.029273986816406e-05}
+Dynamic Programming: {'max_profit': 37.0, 'selected_items': [0, 8, 9], 'elapsed_time': 0.00021028518676757812}
+=== instances/inst_10_10_9_2.txt ===
+Backtracking: {'max_profit': 31.810000000000002, 'selected_items': [2, 3, 6], 'elapsed_time': 0.00010895729064941406}
+Branch-and-Bound: {'max_profit': 31.810000000000002, 'selected_items': [2, 3, 6], 'elapsed_time': 3.7670135498046875e-05}
+Dynamic Programming: {'max_profit': 31.810000000000002, 'selected_items': [2, 3, 6], 'elapsed_time': 0.00023603439331054688}
+=== instances/inst_10_10_9_3.txt ===
+Backtracking: {'max_profit': 40.84, 'selected_items': [3, 8, 9], 'elapsed_time': 0.00019073486328125}
+Branch-and-Bound: {'max_profit': 40.84, 'selected_items': [3, 8, 9], 'elapsed_time': 3.62396240234375e-05}
+Dynamic Programming: {'max_profit': 40.84, 'selected_items': [3, 8, 9], 'elapsed_time': 0.0002129077911376953}
+=== instances/inst_10_10_9_4.txt ===
+Backtracking: {'max_profit': 25.21, 'selected_items': [2, 6], 'elapsed_time': 8.940696716308594e-05}
+Branch-and-Bound: {'max_profit': 25.21, 'selected_items': [2, 6], 'elapsed_time': 3.0994415283203125e-05}
+Dynamic Programming: {'max_profit': 25.21, 'selected_items': [2, 6], 'elapsed_time': 0.000194549560546875}
+=== instances/inst_10_10_9_5.txt ===
+Backtracking: {'max_profit': 37.75, 'selected_items': [0, 5, 9], 'elapsed_time': 0.0002779960632324219}
+Branch-and-Bound: {'max_profit': 37.75, 'selected_items': [0, 5, 9], 'elapsed_time': 0.00010180473327636719}
+Dynamic Programming: {'max_profit': 37.75, 'selected_items': [0, 5, 9], 'elapsed_time': 0.00024008750915527344}
+=== instances/inst_10_10_9_6.txt ===
+Backtracking: {'max_profit': 30.46, 'selected_items': [4, 7], 'elapsed_time': 0.00010895729064941406}
+Branch-and-Bound: {'max_profit': 30.46, 'selected_items': [4, 7], 'elapsed_time': 3.1948089599609375e-05}
+Dynamic Programming: {'max_profit': 30.46, 'selected_items': [4, 7], 'elapsed_time': 0.00019693374633789062}
+=== instances/inst_10_10_9_7.txt ===
+Backtracking: {'max_profit': 31.770000000000003, 'selected_items': [4, 7], 'elapsed_time': 0.0001556873321533203}
+Branch-and-Bound: {'max_profit': 30.95, 'selected_items': [0, 4, 5], 'elapsed_time': 3.361701965332031e-05}
+Dynamic Programming: {'max_profit': 31.770000000000003, 'selected_items': [4, 7], 'elapsed_time': 0.000247955322265625}
+=== instances/inst_10_10_9_8.txt ===
+Backtracking: {'max_profit': 27.81, 'selected_items': [2, 8, 9], 'elapsed_time': 0.00012540817260742188}
+Branch-and-Bound: {'max_profit': 27.81, 'selected_items': [2, 8, 9], 'elapsed_time': 4.38690185546875e-05}
+Dynamic Programming: {'max_profit': 27.81, 'selected_items': [2, 8, 9], 'elapsed_time': 0.0002124309539794922}
+=== instances/inst_10_10_9_9.txt ===
+Backtracking: {'max_profit': 39.21, 'selected_items': [4, 5], 'elapsed_time': 0.00012969970703125}
+Branch-and-Bound: {'max_profit': 39.21, 'selected_items': [4, 5], 'elapsed_time': 4.124641418457031e-05}
+Dynamic Programming: {'max_profit': 39.21, 'selected_items': [4, 5], 'elapsed_time': 0.00021123886108398438}
+=== instances/inst_10_20_15_10.txt ===
+Backtracking: {'max_profit': 26.92, 'selected_items': [3, 4], 'elapsed_time': 0.0001316070556640625}
+Branch-and-Bound: {'max_profit': 26.92, 'selected_items': [3, 4], 'elapsed_time': 3.7670135498046875e-05}
+Dynamic Programming: {'max_profit': 26.92, 'selected_items': [3, 4], 'elapsed_time': 0.0005614757537841797}
+=== instances/inst_10_20_15_1.txt ===
+Backtracking: {'max_profit': 35.44, 'selected_items': [0, 1], 'elapsed_time': 9.560585021972656e-05}
+Branch-and-Bound: {'max_profit': 35.44, 'selected_items': [0, 1], 'elapsed_time': 3.719329833984375e-05}
+Dynamic Programming: {'max_profit': 35.44, 'selected_items': [0, 1], 'elapsed_time': 0.0005507469177246094}
+=== instances/inst_10_20_15_2.txt ===
+Backtracking: {'max_profit': 37.42, 'selected_items': [0, 8], 'elapsed_time': 0.00011563301086425781}
+Branch-and-Bound: {'max_profit': 37.42, 'selected_items': [0, 8], 'elapsed_time': 3.600120544433594e-05}
+Dynamic Programming: {'max_profit': 37.42, 'selected_items': [0, 8], 'elapsed_time': 0.0005083084106445312}
+=== instances/inst_10_20_15_3.txt ===
+Backtracking: {'max_profit': 25.73, 'selected_items': [2, 5], 'elapsed_time': 0.00022745132446289062}
+Branch-and-Bound: {'max_profit': 25.73, 'selected_items': [2, 5], 'elapsed_time': 6.246566772460938e-05}
+Dynamic Programming: {'max_profit': 25.73, 'selected_items': [2, 5], 'elapsed_time': 0.0005605220794677734}
+=== instances/inst_10_20_15_4.txt ===
+Backtracking: {'max_profit': 23.490000000000002, 'selected_items': [4, 6, 8], 'elapsed_time': 0.00013589859008789062}
+Branch-and-Bound: {'max_profit': 23.490000000000002, 'selected_items': [4, 6, 8], 'elapsed_time': 4.1961669921875e-05}
+Dynamic Programming: {'max_profit': 23.490000000000002, 'selected_items': [4, 6, 8], 'elapsed_time': 0.0005433559417724609}
+=== instances/inst_10_20_15_5.txt ===
+Backtracking: {'max_profit': 37.1, 'selected_items': [2, 6, 9], 'elapsed_time': 9.560585021972656e-05}
+Branch-and-Bound: {'max_profit': 37.1, 'selected_items': [2, 6, 9], 'elapsed_time': 3.147125244140625e-05}
+Dynamic Programming: {'max_profit': 37.1, 'selected_items': [2, 6, 9], 'elapsed_time': 0.0008080005645751953}
+=== instances/inst_10_20_15_6.txt ===
+Backtracking: {'max_profit': 41.32, 'selected_items': [5, 6, 7], 'elapsed_time': 0.00014162063598632812}
+Branch-and-Bound: {'max_profit': 41.32, 'selected_items': [5, 6, 7], 'elapsed_time': 4.38690185546875e-05}
+Dynamic Programming: {'max_profit': 41.32, 'selected_items': [5, 6, 7], 'elapsed_time': 0.0006101131439208984}
+=== instances/inst_10_20_15_7.txt ===
+Backtracking: {'max_profit': 25.189999999999998, 'selected_items': [1, 6], 'elapsed_time': 0.00019216537475585938}
+Branch-and-Bound: {'max_profit': 25.189999999999998, 'selected_items': [1, 6], 'elapsed_time': 3.528594970703125e-05}
+Dynamic Programming: {'max_profit': 25.189999999999998, 'selected_items': [1, 6], 'elapsed_time': 0.0005044937133789062}
+=== instances/inst_10_20_15_8.txt ===
+Backtracking: {'max_profit': 23.07, 'selected_items': [0, 8], 'elapsed_time': 0.00011205673217773438}
+Branch-and-Bound: {'max_profit': 23.07, 'selected_items': [0, 8], 'elapsed_time': 7.414817810058594e-05}
+Dynamic Programming: {'max_profit': 23.07, 'selected_items': [0, 8], 'elapsed_time': 0.0005190372467041016}
+=== instances/inst_10_20_15_9.txt ===
+Backtracking: {'max_profit': 48.85, 'selected_items': [4, 7, 9], 'elapsed_time': 0.00010848045349121094}
+Branch-and-Bound: {'max_profit': 48.85, 'selected_items': [4, 7, 9], 'elapsed_time': 3.743171691894531e-05}
+Dynamic Programming: {'max_profit': 48.85, 'selected_items': [4, 7, 9], 'elapsed_time': 0.0005788803100585938}
+=== instances/inst_15_10_9_10.txt ===
+Backtracking: {'max_profit': 34.17, 'selected_items': [2, 14], 'elapsed_time': 4.9114227294921875e-05}
+Branch-and-Bound: {'max_profit': 34.17, 'selected_items': [2, 14], 'elapsed_time': 4.76837158203125e-05}
+Dynamic Programming: {'max_profit': 34.17, 'selected_items': [2, 14], 'elapsed_time': 0.00029349327087402344}
+=== instances/inst_15_10_9_1.txt ===
+Backtracking: {'max_profit': 44.190000000000005, 'selected_items': [1, 4, 11], 'elapsed_time': 0.00010633468627929688}
+Branch-and-Bound: {'max_profit': 44.19, 'selected_items': [1, 4, 11], 'elapsed_time': 7.2479248046875e-05}
+Dynamic Programming: {'max_profit': 44.190000000000005, 'selected_items': [1, 4, 11], 'elapsed_time': 0.000331878662109375}
+=== instances/inst_15_10_9_2.txt ===
+Backtracking: {'max_profit': 46.269999999999996, 'selected_items': [2, 4, 5], 'elapsed_time': 7.939338684082031e-05}
+Branch-and-Bound: {'max_profit': 46.269999999999996, 'selected_items': [2, 4, 5], 'elapsed_time': 5.4836273193359375e-05}
+Dynamic Programming: {'max_profit': 46.269999999999996, 'selected_items': [2, 4, 5], 'elapsed_time': 0.000308990478515625}
+=== instances/inst_15_10_9_3.txt ===
+Backtracking: {'max_profit': 29.36, 'selected_items': [3, 7], 'elapsed_time': 7.200241088867188e-05}
+Branch-and-Bound: {'max_profit': 29.36, 'selected_items': [3, 7], 'elapsed_time': 9.083747863769531e-05}
+Dynamic Programming: {'max_profit': 29.36, 'selected_items': [3, 7], 'elapsed_time': 0.00032973289489746094}
+=== instances/inst_15_10_9_4.txt ===
+Backtracking: {'max_profit': 35.64, 'selected_items': [1, 6, 13], 'elapsed_time': 6.961822509765625e-05}
+Branch-and-Bound: {'max_profit': 35.64, 'selected_items': [1, 6, 13], 'elapsed_time': 4.6253204345703125e-05}
+Dynamic Programming: {'max_profit': 35.64, 'selected_items': [1, 6, 13], 'elapsed_time': 0.0002963542938232422}
+=== instances/inst_15_10_9_5.txt ===
+Backtracking: {'max_profit': 35.379999999999995, 'selected_items': [8, 14], 'elapsed_time': 6.890296936035156e-05}
+Branch-and-Bound: {'max_profit': 35.379999999999995, 'selected_items': [8, 14], 'elapsed_time': 5.698204040527344e-05}
+Dynamic Programming: {'max_profit': 35.379999999999995, 'selected_items': [8, 14], 'elapsed_time': 0.00029087066650390625}
+=== instances/inst_15_10_9_6.txt ===
+Backtracking: {'max_profit': 38.3, 'selected_items': [1, 2, 5, 12], 'elapsed_time': 0.0001087188720703125}
+Branch-and-Bound: {'max_profit': 38.3, 'selected_items': [1, 2, 5, 12], 'elapsed_time': 5.1975250244140625e-05}
+Dynamic Programming: {'max_profit': 38.3, 'selected_items': [1, 2, 5, 12], 'elapsed_time': 0.0003101825714111328}
+=== instances/inst_15_10_9_7.txt ===
+Backtracking: {'max_profit': 53.14, 'selected_items': [8, 11, 12, 14], 'elapsed_time': 9.131431579589844e-05}
+Branch-and-Bound: {'max_profit': 53.14, 'selected_items': [8, 11, 12, 14], 'elapsed_time': 4.0531158447265625e-05}
+Dynamic Programming: {'max_profit': 53.14, 'selected_items': [8, 11, 12, 14], 'elapsed_time': 0.0003199577331542969}
+=== instances/inst_15_10_9_8.txt ===
+Backtracking: {'max_profit': 23.59, 'selected_items': [1, 7], 'elapsed_time': 6.29425048828125e-05}
+Branch-and-Bound: {'max_profit': 23.59, 'selected_items': [1, 7], 'elapsed_time': 7.009506225585938e-05}
+Dynamic Programming: {'max_profit': 23.59, 'selected_items': [1, 7], 'elapsed_time': 0.00031757354736328125}
+=== instances/inst_15_10_9_9.txt ===
+Backtracking: {'max_profit': 27.29, 'selected_items': [12, 14], 'elapsed_time': 4.76837158203125e-05}
+Branch-and-Bound: {'max_profit': 22.94, 'selected_items': [6, 13], 'elapsed_time': 4.029273986816406e-05}
+Dynamic Programming: {'max_profit': 27.29, 'selected_items': [12, 14], 'elapsed_time': 0.0002830028533935547}
+=== instances/inst_15_20_15_10.txt ===
+Backtracking: {'max_profit': 35.65, 'selected_items': [7, 13], 'elapsed_time': 4.2438507080078125e-05}
+Branch-and-Bound: {'max_profit': 35.65, 'selected_items': [7, 13], 'elapsed_time': 5.0067901611328125e-05}
+Dynamic Programming: {'max_profit': 35.65, 'selected_items': [7, 13], 'elapsed_time': 0.0007066726684570312}
+=== instances/inst_15_20_15_1.txt ===
+Backtracking: {'max_profit': 44.25, 'selected_items': [0, 2, 9, 12], 'elapsed_time': 0.00010061264038085938}
+Branch-and-Bound: {'max_profit': 44.25000000000001, 'selected_items': [0, 2, 9, 12], 'elapsed_time': 5.459785461425781e-05}
+Dynamic Programming: {'max_profit': 44.25, 'selected_items': [0, 2, 9, 12], 'elapsed_time': 0.0011582374572753906}
+=== instances/inst_15_20_15_2.txt ===
+Backtracking: {'max_profit': 56.23, 'selected_items': [5, 7, 8, 12], 'elapsed_time': 0.00010943412780761719}
+Branch-and-Bound: {'max_profit': 55.550000000000004, 'selected_items': [5, 10, 12, 13], 'elapsed_time': 4.076957702636719e-05}
+Dynamic Programming: {'max_profit': 56.23, 'selected_items': [5, 7, 8, 12], 'elapsed_time': 0.0008561611175537109}
+=== instances/inst_15_20_15_3.txt ===
+Backtracking: {'max_profit': 54.150000000000006, 'selected_items': [0, 5, 8, 9], 'elapsed_time': 0.00011420249938964844}
+Branch-and-Bound: {'max_profit': 54.150000000000006, 'selected_items': [0, 5, 8, 9], 'elapsed_time': 5.626678466796875e-05}
+Dynamic Programming: {'max_profit': 54.150000000000006, 'selected_items': [0, 5, 8, 9], 'elapsed_time': 0.0008616447448730469}
+=== instances/inst_15_20_15_4.txt ===
+Backtracking: {'max_profit': 54.16, 'selected_items': [1, 3, 6, 9], 'elapsed_time': 0.00011897087097167969}
+Branch-and-Bound: {'max_profit': 54.16, 'selected_items': [1, 3, 6, 9], 'elapsed_time': 4.696846008300781e-05}
+Dynamic Programming: {'max_profit': 54.16, 'selected_items': [1, 3, 6, 9], 'elapsed_time': 0.000997304916381836}
+=== instances/inst_15_20_15_5.txt ===
+Backtracking: {'max_profit': 36.43, 'selected_items': [3, 12], 'elapsed_time': 3.910064697265625e-05}
+Branch-and-Bound: {'max_profit': 36.43, 'selected_items': [3, 12], 'elapsed_time': 3.933906555175781e-05}
+Dynamic Programming: {'max_profit': 36.43, 'selected_items': [3, 12], 'elapsed_time': 0.0007081031799316406}
+=== instances/inst_15_20_15_6.txt ===
+Backtracking: {'max_profit': 32.14, 'selected_items': [4, 8, 9], 'elapsed_time': 7.081031799316406e-05}
+Branch-and-Bound: {'max_profit': 32.14, 'selected_items': [4, 8, 9], 'elapsed_time': 3.886222839355469e-05}
+Dynamic Programming: {'max_profit': 32.14, 'selected_items': [4, 8, 9], 'elapsed_time': 0.0007882118225097656}
+=== instances/inst_15_20_15_7.txt ===
+Backtracking: {'max_profit': 48.44, 'selected_items': [6, 13, 14], 'elapsed_time': 3.910064697265625e-05}
+Branch-and-Bound: {'max_profit': 48.44, 'selected_items': [6, 13, 14], 'elapsed_time': 3.552436828613281e-05}
+Dynamic Programming: {'max_profit': 48.44, 'selected_items': [6, 13, 14], 'elapsed_time': 0.0007848739624023438}
+=== instances/inst_15_20_15_8.txt ===
+Backtracking: {'max_profit': 39.129999999999995, 'selected_items': [0, 8], 'elapsed_time': 5.7220458984375e-05}
+Branch-and-Bound: {'max_profit': 39.129999999999995, 'selected_items': [0, 8], 'elapsed_time': 4.744529724121094e-05}
+Dynamic Programming: {'max_profit': 39.129999999999995, 'selected_items': [0, 8], 'elapsed_time': 0.0007498264312744141}
+=== instances/inst_15_20_15_9.txt ===
+Backtracking: {'max_profit': 59.93000000000001, 'selected_items': [2, 7, 9, 11, 14], 'elapsed_time': 0.0001323223114013672}
+Branch-and-Bound: {'max_profit': 59.92999999999999, 'selected_items': [2, 7, 9, 11, 14], 'elapsed_time': 6.723403930664062e-05}
+Dynamic Programming: {'max_profit': 59.93000000000001, 'selected_items': [2, 7, 9, 11, 14], 'elapsed_time': 0.0008542537689208984}
+=== instances/inst_5_10_9_10.txt ===
+Backtracking: {'max_profit': 28.659999999999997, 'selected_items': [0, 2], 'elapsed_time': 0.00012159347534179688}
+Branch-and-Bound: {'max_profit': 28.659999999999997, 'selected_items': [0, 2], 'elapsed_time': 2.7894973754882812e-05}
+Dynamic Programming: {'max_profit': 28.659999999999997, 'selected_items': [0, 2], 'elapsed_time': 0.00044035911560058594}
+=== instances/inst_5_10_9_1.txt ===
+Backtracking: {'max_profit': 19.05, 'selected_items': [3], 'elapsed_time': 7.534027099609375e-05}
+Branch-and-Bound: {'max_profit': 19.05, 'selected_items': [3], 'elapsed_time': 2.6226043701171875e-05}
+Dynamic Programming: {'max_profit': 19.05, 'selected_items': [3], 'elapsed_time': 0.00010848045349121094}
+=== instances/inst_5_10_9_2.txt ===
+Backtracking: {'max_profit': 19.6, 'selected_items': [2], 'elapsed_time': 0.00016045570373535156}
+Branch-and-Bound: {'max_profit': 19.6, 'selected_items': [2], 'elapsed_time': 2.956390380859375e-05}
+Dynamic Programming: {'max_profit': 19.6, 'selected_items': [2], 'elapsed_time': 0.00012731552124023438}
+=== instances/inst_5_10_9_3.txt ===
+Backtracking: {'max_profit': 33.35, 'selected_items': [2, 4], 'elapsed_time': 0.00016808509826660156}
+Branch-and-Bound: {'max_profit': 33.35, 'selected_items': [2, 4], 'elapsed_time': 2.6702880859375e-05}
+Dynamic Programming: {'max_profit': 33.35, 'selected_items': [2, 4], 'elapsed_time': 0.0001125335693359375}
+=== instances/inst_5_10_9_4.txt ===
+Backtracking: {'max_profit': 34.68, 'selected_items': [0, 2], 'elapsed_time': 8.034706115722656e-05}
+Branch-and-Bound: {'max_profit': 34.68, 'selected_items': [0, 2], 'elapsed_time': 2.384185791015625e-05}
+Dynamic Programming: {'max_profit': 34.68, 'selected_items': [0, 2], 'elapsed_time': 0.0001087188720703125}
+=== instances/inst_5_10_9_5.txt ===
+Backtracking: {'max_profit': 20.990000000000002, 'selected_items': [0, 4], 'elapsed_time': 0.00036907196044921875}
+Branch-and-Bound: {'max_profit': 20.990000000000002, 'selected_items': [0, 4], 'elapsed_time': 5.245208740234375e-05}
+Dynamic Programming: {'max_profit': 20.990000000000002, 'selected_items': [0, 4], 'elapsed_time': 0.00017595291137695312}
+=== instances/inst_5_10_9_6.txt ===
+Backtracking: {'max_profit': 16.7, 'selected_items': [2], 'elapsed_time': 0.00019311904907226562}
+Branch-and-Bound: {'max_profit': 16.7, 'selected_items': [2], 'elapsed_time': 3.0279159545898438e-05}
+Dynamic Programming: {'max_profit': 16.7, 'selected_items': [2], 'elapsed_time': 0.00010204315185546875}
+=== instances/inst_5_10_9_7.txt ===
+Backtracking: {'max_profit': 37.06, 'selected_items': [0, 1], 'elapsed_time': 0.00019288063049316406}
+Branch-and-Bound: {'max_profit': 37.06, 'selected_items': [0, 1], 'elapsed_time': 2.765655517578125e-05}
+Dynamic Programming: {'max_profit': 37.06, 'selected_items': [0, 1], 'elapsed_time': 0.00011873245239257812}
+=== instances/inst_5_10_9_8.txt ===
+Backtracking: {'max_profit': 31.930000000000003, 'selected_items': [0, 3, 4], 'elapsed_time': 0.00027108192443847656}
+Branch-and-Bound: {'max_profit': 31.93, 'selected_items': [0, 3, 4], 'elapsed_time': 4.4345855712890625e-05}
+Dynamic Programming: {'max_profit': 31.930000000000003, 'selected_items': [0, 3, 4], 'elapsed_time': 0.00014543533325195312}
+=== instances/inst_5_10_9_9.txt ===
+Backtracking: {'max_profit': 10.43, 'selected_items': [4], 'elapsed_time': 0.00031375885009765625}
+Branch-and-Bound: {'max_profit': 10.43, 'selected_items': [4], 'elapsed_time': 4.1484832763671875e-05}
+Dynamic Programming: {'max_profit': 10.43, 'selected_items': [4], 'elapsed_time': 0.0001220703125}
+=== instances/inst_5_20_15_10.txt ===
+Backtracking: {'max_profit': 25.880000000000003, 'selected_items': [0, 2], 'elapsed_time': 0.0001533031463623047}
+Branch-and-Bound: {'max_profit': 25.880000000000003, 'selected_items': [0, 2], 'elapsed_time': 2.7894973754882812e-05}
+Dynamic Programming: {'max_profit': 25.880000000000003, 'selected_items': [0, 2], 'elapsed_time': 0.0003018379211425781}
+=== instances/inst_5_20_15_1.txt ===
+Backtracking: {'max_profit': 19.08, 'selected_items': [0], 'elapsed_time': 7.581710815429688e-05}
+Branch-and-Bound: {'max_profit': 19.08, 'selected_items': [0], 'elapsed_time': 2.1457672119140625e-05}
+Dynamic Programming: {'max_profit': 19.08, 'selected_items': [0], 'elapsed_time': 0.0003478527069091797}
+=== instances/inst_5_20_15_2.txt ===
+Backtracking: {'max_profit': 32.9, 'selected_items': [1, 2], 'elapsed_time': 0.0001850128173828125}
+Branch-and-Bound: {'max_profit': 32.9, 'selected_items': [1, 2], 'elapsed_time': 2.7894973754882812e-05}
+Dynamic Programming: {'max_profit': 32.9, 'selected_items': [1, 2], 'elapsed_time': 0.0005626678466796875}
+=== instances/inst_5_20_15_3.txt ===
+Backtracking: {'max_profit': 45.87, 'selected_items': [2, 3, 4], 'elapsed_time': 0.0001239776611328125}
+Branch-and-Bound: {'max_profit': 45.87, 'selected_items': [2, 3, 4], 'elapsed_time': 2.47955322265625e-05}
+Dynamic Programming: {'max_profit': 45.87, 'selected_items': [2, 3, 4], 'elapsed_time': 0.00030994415283203125}
+=== instances/inst_5_20_15_4.txt ===
+Backtracking: {'max_profit': 30.29, 'selected_items': [0, 4], 'elapsed_time': 0.00017333030700683594}
+Branch-and-Bound: {'max_profit': 30.29, 'selected_items': [0, 4], 'elapsed_time': 2.765655517578125e-05}
+Dynamic Programming: {'max_profit': 30.29, 'selected_items': [0, 4], 'elapsed_time': 0.0002803802490234375}
+=== instances/inst_5_20_15_5.txt ===
+Backtracking: {'max_profit': 30.310000000000002, 'selected_items': [1, 2], 'elapsed_time': 7.700920104980469e-05}
+Branch-and-Bound: {'max_profit': 30.310000000000002, 'selected_items': [1, 2], 'elapsed_time': 2.4080276489257812e-05}
+Dynamic Programming: {'max_profit': 30.310000000000002, 'selected_items': [1, 2], 'elapsed_time': 0.0003364086151123047}
+=== instances/inst_5_20_15_6.txt ===
+Backtracking: {'max_profit': 25.54, 'selected_items': [0, 2], 'elapsed_time': 0.00020194053649902344}
+Branch-and-Bound: {'max_profit': 25.54, 'selected_items': [0, 2], 'elapsed_time': 3.123283386230469e-05}
+Dynamic Programming: {'max_profit': 25.54, 'selected_items': [0, 2], 'elapsed_time': 0.00028705596923828125}
+=== instances/inst_5_20_15_7.txt ===
+Backtracking: {'max_profit': 32.339999999999996, 'selected_items': [2, 4], 'elapsed_time': 7.724761962890625e-05}
+Branch-and-Bound: {'max_profit': 32.339999999999996, 'selected_items': [2, 4], 'elapsed_time': 2.6464462280273438e-05}
+Dynamic Programming: {'max_profit': 32.339999999999996, 'selected_items': [2, 4], 'elapsed_time': 0.0002961158752441406}
+=== instances/inst_5_20_15_8.txt ===
+Backtracking: {'max_profit': 13.21, 'selected_items': [4], 'elapsed_time': 7.557868957519531e-05}
+Branch-and-Bound: {'max_profit': 13.21, 'selected_items': [4], 'elapsed_time': 2.4318695068359375e-05}
+Dynamic Programming: {'max_profit': 13.21, 'selected_items': [4], 'elapsed_time': 0.0002560615539550781}
+=== instances/inst_5_20_15_9.txt ===
+Backtracking: {'max_profit': 19.4, 'selected_items': [0, 4], 'elapsed_time': 0.00017189979553222656}
+Branch-and-Bound: {'max_profit': 19.4, 'selected_items': [0, 4], 'elapsed_time': 2.765655517578125e-05}
+Dynamic Programming: {'max_profit': 19.4, 'selected_items': [0, 4], 'elapsed_time': 0.00029850006103515625}

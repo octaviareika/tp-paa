@@ -20,10 +20,12 @@ def main():
     
 
     backtracking_results = backtracking_algorithm(input_data)
-    # bnb_results = bnb_algorithm(input_data) TODO
-    # dynamic_results = dynamic_algorithm(input_data) TODO
+    bnb_results = bnb_algorithm(input_data)
+    dynamic_results = dynamic_algorithm(input_data)
 
-    print(backtracking_results)
+    print("Backtracking:", backtracking_results)
+    print("Branch-and-Bound:", bnb_results)
+    print("Dynamic Programming:", dynamic_results)
 
 
 if __name__ == "__main__":
