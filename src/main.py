@@ -6,28 +6,24 @@ import sys
 
 
 def main():
-    if len(sys.argv) != 2:
-        print("Uso: python main.py <file_path>")
-        sys.exit(1)
     
-    file_path = sys.argv[1]
-    
-    input_data = load_file(file_path)
-    
-    while input_data is None:
-        file_path = input("Insira o caminho correto para o arquivo\n")
-        input_data = load_file(file_path)
-    
+    for i in range(10):
 
-    backtracking_results = backtracking_algorithm(input_data)
-    bnb_results = bnb_algorithm(input_data)
-    dynamic_results = dynamic_algorithm(input_data)
+        input_data = load_file(f"../input_files/instances/instance_{i+1}.txt")
 
-    print("Backtracking:", backtracking_results)
-    print("Branch-and-Bound:", bnb_results)
-    print("Dynamic Programming:", dynamic_results)
+        backtracking_results = backtracking_algorithm(input_data)
+        bnb_results = bnb_algorithm(input_data)
+        dynamic_results = dynamic_algorithm(input_data)
 
-    
+        print(f"Arquivo instance_{i+1}:\n")
+
+        print("Backtracking:", backtracking_results)
+        print("Branch-and-Bound:", bnb_results)
+        print("Dynamic Programming:", dynamic_results)
+        
+        print()
+
+
 
 
 if __name__ == "__main__":
