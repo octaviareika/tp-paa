@@ -27,6 +27,8 @@ def main():
     print("Branch-and-Bound:", bnb_results)
     print("Dynamic Programming:", dynamic_results)
 
+    
+
 
 if __name__ == "__main__":
     main()
