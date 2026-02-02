@@ -1,11 +1,11 @@
 import time
 
 def dynamic_algorithm(data):
-    start = time.time()
+    start = time.perf_counter()
 
     max_profit, selected_items = dynamic_function(data)
 
-    end = time.time()
+    end = time.perf_counter()
     total_time = end - start
 
     return_dictionary = {

@@ -1,3 +1,8 @@
 **/instances/
 **/__pycache__/
 .pyc
+.venv/
+results_analysis/
+results_analysis2/
+results_analysis_1/
+results_summary.json
