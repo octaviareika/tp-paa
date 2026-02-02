@@ -1,0 +1,4 @@
+quantidade de itens variam entre [10, 100, 250, 500, 1000]
+Backtracking parou em 250 por custar muito
+mochila, w e v tem os mesmos valores, que são 20% 50% e 80% do valor de n
+para cada valor de n e w,v, foram geradas 10 instancias, os resultados são as médias dessas

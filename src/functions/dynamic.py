@@ -23,6 +23,11 @@ def dynamic_function(data):
     V = int(data["v"])
     items = data["items"]
     n = len(items)
+    
+    # Complexidade de Tempo:
+    # - Caso Médio: O(n * W * V) - A tabela é preenchida integralmente independente dos dados.
+    # - Pior Caso:  O(n * W * V)
+    # Complexidade de Espaço: O(n * W * V) - Armazenamento da tabela tridimensional.
 
     # Inicializando a tabela DP
     # usar float para valores (podem ser não-inteiros)

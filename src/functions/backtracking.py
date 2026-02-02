@@ -28,6 +28,11 @@ def backtracking_function(data):
     V = data["v"]
     items = data["items"]
     n = len(items)
+    
+    # Complexidade de Tempo:
+    # - Caso Médio: O(2^n) - Embora as podas reduzam o espaço, o crescimento permanece exponencial.
+    # - Pior Caso:  O(2^n) - Ocorre quando a maioria das combinações é válida/testada.
+    # Complexidade de Espaço: O(n) - Profundidade da pilha de recursão.
 
     def backtrack(index=0, current_weight=0, current_volume=0, current_profit=0, current_items=None):
         if current_items is None:
