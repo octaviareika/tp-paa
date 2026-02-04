@@ -36,7 +36,7 @@ def generate_instances(n, W, V, num_instances=10, base_dir="instances"):
 
 def main():
     # Listas para iteração (ajuste conforme necessário para sua análise assintótica)
-    n_list = [10, 100]          # Quantidade de itens
+    n_list = [10, 100, 250, 500, 1000]          # Quantidade de itens
     W_list = [0.2, 0.5, 0.8]              # Capacidade de peso (Pequena, Média, Grande) em porcentagem com relação a n, ex: se n = 10, 20 = 2
     V_list = [0.2, 0.5, 0.8]              # Capacidade de volume (Pequena, Média, Grande) em porcentagem com relação a n, ex: se n = 10, 20 = 2
 

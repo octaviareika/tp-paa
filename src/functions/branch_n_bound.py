@@ -1,5 +1,6 @@
 import time
 
+
 def bnb_algorithm(data):
     start = time.perf_counter()
 
@@ -16,6 +17,17 @@ def bnb_algorithm(data):
 
     return return_dictionary
 
+def greedy_initial_solution(indexed, W, V):
+    """Greedy algorithm to find initial solution for better lower bound."""
+    temp_w, temp_v, temp_profit = W, V, 0.0
+    temp_items = []
+    for i, wi, li, vi in indexed:
+        if wi <= temp_w and li <= temp_v:
+            temp_w -= wi
+            temp_v -= li
+            temp_profit += vi
+            temp_items.append(i)
+    return temp_profit, temp_items, temp_w, temp_v
 
 # Função para implementação, deve retornar o lucro e uma lista com os itens contidos na melhor solução, inclua os parâmetros necessários
 def bnb_function(data):
@@ -36,6 +48,9 @@ def bnb_function(data):
     best_profit = 0.0
     best_items = []
 
+    # Get greedy initial solution
+    best_profit, best_items, rem_w_init, rem_v_init = greedy_initial_solution(indexed, W, V)
+
     # Bound via relaxação fracionária (respeitando ambas capacidades)
     def fractional_bound(idx, rem_w, rem_v, acc_profit):
         bound = acc_profit
@@ -49,7 +64,7 @@ def bnb_function(data):
                 # fração limitada pelo menor recurso disponível relativo
                 frac_w = rem_w / wi if wi > 0 else 0.0
                 frac_v = rem_v / li if li > 0 else 0.0
-                frac = min(frac_w, frac_v, 1.0)
+                frac = max(frac_w, frac_v)
                 bound += vi * frac
                 break
         return bound
