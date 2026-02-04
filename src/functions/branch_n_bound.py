@@ -18,7 +18,6 @@ def bnb_algorithm(data):
     return return_dictionary
 
 def greedy_initial_solution(indexed, W, V):
-    """Greedy algorithm to find initial solution for better lower bound."""
     temp_w, temp_v, temp_profit = W, V, 0.0
     temp_items = []
     for i, wi, li, vi in indexed:
@@ -48,7 +47,6 @@ def bnb_function(data):
     best_profit = 0.0
     best_items = []
 
-    # Get greedy initial solution
     best_profit, best_items, rem_w_init, rem_v_init = greedy_initial_solution(indexed, W, V)
 
     # Bound via relaxação fracionária (respeitando ambas capacidades)
